@@ -1,7 +1,7 @@
 import csv
 
 
-def read_file(file_name) -> list:
+def read_file(file_name) -> list[dict]:
   with open(file_name, mode='r', encoding='utf-8') as file:
     read_csv = csv.DictReader(file)
     return list(read_csv)

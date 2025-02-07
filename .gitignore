@@ -1,0 +1,9 @@
+*.csv
+*.parquet
+*.xlsx
+*.db
+venv/
+.env/
+env/
+.venv
+.env
